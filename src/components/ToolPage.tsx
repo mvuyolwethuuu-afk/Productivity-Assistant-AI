@@ -1,5 +1,6 @@
 import { useRef, useState, type ReactNode } from "react";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { Copy, Eye, Loader2, Pencil, RotateCcw, Square, Wand2 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -120,7 +121,7 @@ export function ToolPage({
             ) : (
               output && (
                 <div className="prose-output">
-                  <ReactMarkdown>{output}</ReactMarkdown>
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{output}</ReactMarkdown>
                 </div>
               )
             )}

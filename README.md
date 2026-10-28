@@ -1,4 +1,4 @@
-# Workday Wonderdesk
+# Clarity Workday 
 
 Build a modern, responsive web application called AI Workplace Productivity Assistant that helps professionals automate workplace tasks using AI.
 

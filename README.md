@@ -79,7 +79,7 @@ This will generate a `dist` folder with the optimized, minified files ready for 
 ## 👤 Author and Licensing
 **Author:**
 - **Vuyolwethu Mafu** 
-- GitHub: [@mvuyolwethuuu-afk](https://github.com/mvuyolwethuuu-afk)
+- GitHub:https://clarityworkday.lovable.app/
 
 **License:**
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software, provided that the original author is credited.
